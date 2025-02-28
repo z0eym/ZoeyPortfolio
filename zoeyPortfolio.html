@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zoey Miller | Portfolio</title>
+</head>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+        }
+        header {
+            background-color: #4B2E83;
+            color: #FFF;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav {
+            background-color: #85754D;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: #FFF;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        section h2 {
+            color: #4B2E83;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        table, th, td {
+            border: 1px solid #AAA;
+        }
+        th, td {
+            padding: 0.5rem;
+            text-align: left;
+        }
+        th {
+            background-color: #EAE0C8;
+        }
+        footer {
+            background-color: #4B2E83;
+            color: #FFF;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        button {
+            background-color: #4B2E83;
+            color: #FFF;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button:hover {
+            background-color: #85754D;
+        }
+    </style>
+<body>
+<header>
+	<img src="UWT.jpg" alt="UW Logo">
+	<h1>Zoey Miller</h1>
+	<p>Undergraduate IT Student | Aspiring Project Manager</p>
+</header>
+	<nav>
+	<ul>
+	    <li><a href="#About">About Me</a></li>
+	    <li><a href="#ProgrammingSkills">Programming Skills</a></li>
+	    <li><a href="#Projects">Projects</a></li>
+	    <li><a href="#Contacts">Contact</a></li>
+	</ul>
+	</nav>
+
+	<!-- About Me Section -->
+	<section id="AboutMe">
+		<h2>About Me</h2>
+		<p>
+			Hello, my name is Zoey Miller. I am an undergraduate student in the IT program at University of Washington with interest in Project Management.
+		</p>
+	</section>
+
+	<!-- Skills Section -->
+	<section id="ProgrammingSkills">
+		<h2>Skills</h2>
+		<table border="1" cellspacing="0" cellpadding="5">
+			<thead>
+				<tr>
+					<th>Skill</th>
+					<th>Proficiency</th>
+					<th>Experience</th>
+				</tr>
+				<tbody>
+					<tr>
+						<td>Java</td>
+						<td>Basic</td>
+						<td>1 Year</td>
+					</tr>
+					<tr>
+						<td>HTML</td>
+						<td>Beginner</td>
+						<td>1 Month</td>
+					</tr>
+					<tr>
+						<td>C#</td>
+						<td>Beginner</td>
+						<td>1 Month</td>
+					</tr>
+					<tr>
+						<td>PowerPoint</td>
+						<td>Proficient</td>
+						<td>5 Years</td>
+					</tr>
+					<tr>
+						<td>MS Project</td>
+						<td>Basic</td>
+						<td>3 Months</td>
+						
+					</tr>
+					<tr>
+						<td>Excel</td>
+						<td>Proficient</td>
+						<td>5 Years</td>
+					</tr>
+				</tbody>
+			</thead>
+		</table>
+
+		<ul>
+			<li><strong>Communication</strong> - Proficient in Communicating with Clients and Stakeholders</li>
+			<li><strong>Organization and Time Management</strong> - Skillfull in Organization and Time Management completing necessary tasks and providing projects in a timely manner</li>
+			<li><strong>Java</strong> - Basic Experience with Java</li>
+			<li><strong>HTML</strong> - Some Understanding of HTML</li>
+		</ul>
+	</section>
+
+	<!-- Projects Section -->
+	<section id="projects">
+		<h2>Projects</h2>
+		<p>Here are some of the projects I have worked on! </p>
+		<ol>
+			<li><strong>AJRMedia Website</strong> - A Car Photography website that provides car photography services. This website was created with a group and client using Wix, with myself taking on the Project Manager</li>
+			<li><strong>Personal Portfolio</strong> - This website you are currently viewing using HTML!</li>
+		</ol>
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact">	
+		<h2>Contact</h2>
+		<p>
+		If you would like to get in touch with me, you can use the form below or reach me through the following:
+		</p>
+
+		<form action="#" method="post">
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name" required><br><br>
+
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email" required><br><br>
+
+			<label for="message">Message:</label><br>
+			<textarea id="message" id="message" name="message rows="5" required></textarea><br><br>
+
+			<button type="submit">Send</button>
+		</form>
+	</section>
+
+		<ol>
+			<li><strong>Email:</strong> z0eyvmiller@gmail.com</li>
+			<li><strong>GitHub:</strong> <a href="https://github.com/z0eyvm" target="_blank"> github.z0eyvm</li></a>
+			<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zoey-miller-548a872a3/" target="_blank"> linkedin.zoeymiller</li></a>
+		</ol>
+	</section>
+
+</body>
+</html>
